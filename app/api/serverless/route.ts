@@ -1,3 +1,3 @@
 export async function GET() {
-    return { message: 'Hello World' }
+    return new Response('Draft mode is enabled')
 }
